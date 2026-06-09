@@ -215,7 +215,7 @@ CREATE TABLE students (
 -- Password hash generated using PHP password_hash('siswa123', PASSWORD_BCRYPT)
 -- Note: On Laragon/XAMPP, generate fresh hash using: php -r "echo password_hash('siswa123', PASSWORD_BCRYPT);"
 INSERT INTO students (username, nama, email, password, jenjang, kelas) VALUES 
-('siswa', 'Siswa Demo', 'siswa@petailmu.local', '$2y$10$e0Mzj7MWvR8qN9k5L6OZu.H8Y4XcD2fG1hI0jK3lM5nO7pQ9rStU.', 'sd', '5');
+('siswa', 'Siswa Demo', 'siswa@petailmu.local', '$2b$12$.TpSCqEyLTCgz0HwG5OfruJdONiljmXPFGVGFk/hdS41dl2AaG/Qi', 'sd', '5');
 
 -- Learning Data table (for tracking student learning progress)
 CREATE TABLE learning_data (
