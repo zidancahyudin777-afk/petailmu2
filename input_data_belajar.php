@@ -461,7 +461,7 @@ try {
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="rekomendasi_belajar.php">
                         <i class="fas fa-lightbulb"></i>
                         <span>Rekomendasi Belajar</span>
                     </a>
