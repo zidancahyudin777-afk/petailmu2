@@ -1,9 +1,9 @@
 <?php
 class Database {
-    private $host = 'sql100.infinityfree.com';
-    private $dbname = 'if0_39365672_peta_ilmu';
-    private $username = 'if0_39365672';
-    private $password = 'katakanpeta2025';
+    private $host = 'localhost';
+    private $dbname = 'peta_ilmu';
+    private $username = 'root';
+    private $password = '';
     private $charset = 'utf8mb4';
     private $pdo;
 
