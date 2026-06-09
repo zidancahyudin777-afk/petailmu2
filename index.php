@@ -170,6 +170,7 @@ $program_footer_links = [
               <li><a href="program.php">Program</a></li>
               <li><a href="pendaftaran.php">Pendaftaran</a></li>
               <li><a href="kontak.php">Kontak</a></li>
+              <li><a href="siswa_login.php" class="btn-login-siswa">Login Siswa</a></li>
             </ul>
           </nav>
           <div class="mobile-menu">
@@ -372,7 +373,6 @@ $program_footer_links = [
         </div>
         <div class="footer-bottom">
         <p>&copy; <?php echo $current_year; ?> Bimbingan Belajar <?php echo $company_name; ?>. Hak Cipta Dilindungi.</p>
-        <p><a href="admin_login.php" style="color: #667eea;">Admin Login</a></p>
         </div>
       </div>
     </footer>

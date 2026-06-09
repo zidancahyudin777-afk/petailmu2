@@ -7,7 +7,7 @@
 
 /* Root Variables */
 :root {
-  --primary-color: #3498db;
+  --primary-color: #2d9b8f;
   --secondary-color: #2c3e50;
   --accent-color: #e74c3c;
   --light-color: #f8f9fa;
@@ -17,7 +17,7 @@
   --success-color: #28a745;
   --warning-color: #ffc107;
   --info-color: #17a2b8;
-  --hover-primary: #2980b9;
+  --hover-primary: #258a7f;
   --section-padding: 80px 0;
   --section-padding-mobile: 50px 0;
   --border-radius: 8px;
@@ -87,6 +87,24 @@
 
 .nav-menu a.active {
   color: var(--primary-color);
+}
+
+.nav-menu .btn-login-siswa {
+  background-color: var(--primary-color);
+  color: #fff !important;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.nav-menu .btn-login-siswa:hover {
+  background-color: var(--hover-primary);
+  transform: translateY(-2px);
+}
+
+.nav-menu .btn-login-siswa:after {
+  display: none;
 }
 
 .mobile-menu {

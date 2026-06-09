@@ -115,6 +115,7 @@ $footer_contacts = [
                             </a>
                         </li>
                         <?php endforeach; ?>
+                        <li><a href="siswa_login.php" class="btn-login-siswa">Login Siswa</a></li>
                     </ul>
                 </nav>
                 <div class="mobile-menu">
