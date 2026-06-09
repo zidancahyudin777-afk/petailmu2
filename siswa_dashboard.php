@@ -385,7 +385,7 @@ try {
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="perkembangan_belajar.php">
                         <i class="fas fa-chart-line"></i>
                         <span>Perkembangan Belajar</span>
                     </a>
