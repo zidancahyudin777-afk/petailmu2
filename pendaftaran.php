@@ -182,7 +182,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <li><a href="program.php">Program</a></li>
                         <li><a href="pendaftaran.php" class="active">Pendaftaran</a></li>
                         <li><a href="kontak.php">Kontak</a></li>
-                        <li><a href="siswa_login.php" class="btn-login-siswa">Login Siswa</a></li>
                     </ul>
                 </nav>
                 <div class="mobile-menu">

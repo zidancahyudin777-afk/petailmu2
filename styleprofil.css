@@ -141,21 +141,6 @@ img {
   color: #fff;
 }
 
-/* Login Siswa button in navbar */
-.btn-login-siswa {
-  background-color: var(--primary-color) !important;
-  color: #fff !important;
-  padding: 8px 20px !important;
-  border-radius: 25px;
-  font-weight: 600;
-  transition: var(--transition);
-}
-
-.btn-login-siswa:hover {
-  background-color: var(--hover-primary);
-  transform: translateY(-2px);
-}
-
 /* ===== PAGE HEADER ===== */
 .page-header {
   background-color: var(--primary-color);
@@ -452,18 +437,15 @@ img {
 .struktur-photo {
   position: relative;
   width: 100%;
-  height: 140px;
+  aspect-ratio: 4 / 5; /* Changed from 9:16 to 4:5 aspect ratio */
   overflow: hidden;
 }
 
 .struktur-photo img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
-  margin: 10px auto;
-  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crop image to fit while maintaining aspect ratio */
+  object-position: center; /* Center the image */
 }
 
 .struktur-info {
@@ -540,18 +522,15 @@ img {
 .pengajar-photo {
   position: relative;
   width: 100%;
-  height: 120px;
+  aspect-ratio: 4 / 5; /* Changed from 9:16 to 4:5 aspect ratio */
   overflow: hidden;
 }
 
 .pengajar-photo img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
-  margin: 0 auto;
-  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crop image to fit while maintaining aspect ratio */
+  object-position: center; /* Center the image */
   transition: transform 0.5s ease;
 }
 

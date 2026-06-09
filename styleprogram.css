@@ -98,7 +98,7 @@ img {
 }
 /* Program Page Specific Styles */
 .program-hero {
-  background: linear-gradient(135deg, #2c3e50 0%, #2d9b8f 100%);
+  background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
   padding: 120px 0 80px;
   color: white;
   text-align: center;
@@ -132,9 +132,9 @@ img {
 
 .filter-btn {
   padding: 12px 25px;
-  border: 2px solid #2d9b8f;
+  border: 2px solid #3498db;
   background: white;
-  color: #2d9b8f;
+  color: #3498db;
   text-decoration: none;
   border-radius: 25px;
   font-weight: 500;
@@ -143,10 +143,10 @@ img {
 
 .filter-btn:hover,
 .filter-btn.active {
-  background: #2d9b8f;
+  background: #3498db;
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(45, 155, 143, 0.3);
+  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
 }
 
 .program-packages {
@@ -219,7 +219,7 @@ img {
 .program-card-header {
   position: relative;
   height: 200px;
-  background: linear-gradient(45deg, #2d9b8f, #258a7f);
+  background: linear-gradient(45deg, #3498db, #2980b9);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -308,7 +308,7 @@ img {
 }
 
 .detail-value {
-  color: #2d9b8f;
+  color: #3498db;
   font-weight: 600;
 }
 
@@ -331,13 +331,13 @@ img {
 /* Menggabungkan styling untuk primary buttons */
 .btn-primary,
 .program-card .btn-primary {
-  background: #2d9b8f;
+  background: #3498db;
   color: white;
 }
 
 .btn-primary:hover,
 .program-card .btn-primary:hover {
-  background: #258a7f;
+  background: #2980b9;
   transform: translateY(-2px);
 }
 
@@ -369,7 +369,7 @@ img {
 .benefit-icon {
   width: 80px;
   height: 80px;
-  background: #2d9b8f;
+  background: #3498db;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -417,7 +417,7 @@ img {
 }
 
 .faq-question.active {
-  background: #2d9b8f;
+  background: #3498db;
   color: white;
 }
 

@@ -94,7 +94,7 @@ img {
   transform: translateX(-50%);
   width: 50px;
   height: 3px;
-  background: linear-gradient(90deg, #2d9b8f, #258a7f);
+  background: linear-gradient(90deg, #667eea, #764ba2);
   border-radius: 2px;
 }
 
@@ -115,7 +115,7 @@ img {
 }
 
 .highlight-box {
-  background: linear-gradient(135deg, #2d9b8f 0%, #258a7f 100%);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 20px;
   border-radius: 15px;
@@ -147,14 +147,14 @@ img {
 
 .payment-info {
   background: #f8f9ff;
-  border: 2px solid #2d9b8f;
+  border: 2px solid #667eea;
   border-radius: 10px;
   padding: 20px;
   margin: 20px 0;
 }
 
 .payment-info h4 {
-  color: #2d9b8f;
+  color: #667eea;
   margin: 0 0 15px 0;
   display: flex;
   align-items: center;
@@ -171,7 +171,7 @@ img {
 
 /* Registration Hero Section */
 .registration-hero {
-  background: linear-gradient(135deg, #2d9b8f 0%, #258a7f 100%);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 100px 0 80px;
   text-align: center;
@@ -240,7 +240,7 @@ img {
 }
 
 .registration-info h2 {
-  color: #2d9b8f;
+  color: #667eea;
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 30px;
@@ -256,7 +256,7 @@ img {
   transform: translateX(-50%);
   width: 50px;
   height: 3px;
-  background: linear-gradient(90deg, #2d9b8f, #258a7f);
+  background: linear-gradient(90deg, #667eea, #764ba2);
   border-radius: 2px;
 }
 
@@ -276,7 +276,7 @@ img {
 }
 
 .info-item i {
-  color: #2d9b8f;
+  color: #667eea;
   font-size: 1.5rem;
   margin-right: 15px;
   margin-top: 5px;
@@ -302,7 +302,7 @@ img {
 }
 
 .program-options h3 {
-  color: #2d9b8f;
+  color: #667eea;
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 20px;
@@ -328,14 +328,14 @@ img {
 
 .program-option:hover,
 .program-selection:hover {
-  border-color: #2d9b8f;
+  border-color: #667eea;
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
 }
 
 .program-selection.active {
-  border-color: #2d9b8f;
-  background: #2d9b8f0a;
+  border-color: #667eea;
+  background: #667eea0a;
 }
 
 .program-option h4 {
@@ -415,14 +415,14 @@ img {
 
 .subject-item.selected {
   background: rgba(102, 126, 234, 0.2);
-  border-color: #2d9b8f;
+  border-color: #667eea;
 }
 
 .subject-item input[type="checkbox"] {
   margin-right: 10px;
   width: 18px;
   height: 18px;
-  accent-color: #2d9b8f;
+  accent-color: #667eea;
 }
 
 .subject-item label {
@@ -432,7 +432,7 @@ img {
 }
 
 .subject-count {
-  background: linear-gradient(135deg, #2d9b8f 0%, #258a7f 100%);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 8px 12px;
   border-radius: 20px;
@@ -459,7 +459,7 @@ img {
 }
 
 .price-display {
-  background: linear-gradient(135deg, #2d9b8f 0%, #258a7f 100%);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 15px;
   text-align: center;
@@ -516,7 +516,7 @@ img {
 }
 
 .form-title h2 {
-  color: #2d9b8f;
+  color: #667eea;
   font-size: 2.2rem;
   font-weight: 600;
   margin-bottom: 10px;
@@ -564,7 +564,7 @@ img {
 
 .form-control:focus {
   outline: none;
-  border-color: #2d9b8f;
+  border-color: #667eea;
   background: white;
   box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
   transform: translateY(-1px);
@@ -598,7 +598,7 @@ select.form-control {
   margin-right: 12px;
   margin-top: 2px;
   transform: scale(1.2);
-  accent-color: #2d9b8f;
+  accent-color: #667eea;
 }
 
 .checkbox-group label {
@@ -619,7 +619,7 @@ select.form-control {
 
 .submit-btn {
   width: 100%;
-  background: linear-gradient(135deg, #2d9b8f 0%, #258a7f 100%);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   border: none;
   padding: 15px 30px;
@@ -696,7 +696,7 @@ select.form-control {
 .step-number {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, #2d9b8f 0%, #258a7f 100%);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   border-radius: 50%;
   display: flex;
@@ -767,7 +767,7 @@ select.form-control {
 }
 
 .faq-question.active {
-  background: #2d9b8f;
+  background: #667eea;
   color: white;
 }
 
