@@ -379,7 +379,7 @@ try {
                     </a>
                 </li>
                 <li>
-                    <a href="pendaftaran.php">
+                    <a href="input_data_belajar.php">
                         <i class="fas fa-edit"></i>
                         <span>Input Data Belajar</span>
                     </a>
