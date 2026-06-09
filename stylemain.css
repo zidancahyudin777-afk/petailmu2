@@ -1,0 +1,262 @@
+/* Reset dan Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root Variables */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --accent-color: #e74c3c;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+  --gray-color: #6c757d;
+  --light-gray: #e9ecef;
+  --success-color: #28a745;
+  --warning-color: #ffc107;
+  --info-color: #17a2b8;
+  --hover-primary: #2980b9;
+  --section-padding: 80px 0;
+  --section-padding-mobile: 50px 0;
+  --border-radius: 8px;
+  --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+}
+
+/* ===== HEADER ===== */
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav-menu ul {
+  display: flex;
+}
+
+.nav-menu li {
+  margin-left: 30px;
+}
+
+.nav-menu a {
+  color: var(--secondary-color);
+  font-weight: 500;
+  position: relative;
+  padding: 5px 0;
+}
+
+.nav-menu a:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  bottom: 0;
+  left: 0;
+  transition: var(--transition);
+}
+
+.nav-menu a:hover:after,
+.nav-menu a.active:after {
+  width: 100%;
+}
+
+.nav-menu a.active {
+  color: var(--primary-color);
+}
+
+.mobile-menu {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--secondary-color);
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding-top: 80px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.footer-logo img {
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+.footer-logo h3 {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+
+.footer h4 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.footer h4:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
+/* Menggabungkan selector yang sama untuk footer links */
+.footer-links ul li,
+.footer-program ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul a,
+.footer-program ul a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: var(--transition);
+}
+
+.footer-links ul a:hover,
+.footer-program ul a:hover {
+  color: var(--primary-color);
+  padding-left: 5px;
+}
+
+.footer-contact ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-contact ul li i {
+  margin-right: 15px;
+  color: var(--primary-color);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header-wrapper {
+    padding: 0.8rem 0;
+  }
+
+  .logo a {
+    font-size: 1.3rem;
+  }
+
+  /* Menggabungkan styling logo img untuk mobile */
+  .logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .nav-menu {
+  display: none; /* Hidden by default on mobile */
+}
+
+.nav-menu.active {
+  display: block; /* Show when active */
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-color: #fff;
+  padding: 40px 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.nav-menu ul {
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-menu li {
+  margin: 15px 0;
+}
+
+.nav-menu a {
+  display: block;
+  padding: 10px 0;
+  font-size: 1.1rem;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-menu.active {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+}
+}
+body {
+  overflow-x: hidden;
+}
+*{
+  max-width: 100%;
+  box-sizing: border-box;
+}
