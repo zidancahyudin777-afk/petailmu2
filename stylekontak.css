@@ -264,8 +264,8 @@ Contact Info Section Styles
   width: 70px;
   height: 70px;
   margin: 0 auto 20px;
-  background-color: rgba(45, 155, 143, 0.1);
-  color: #2d9b8f;
+  background-color: rgba(52, 152, 219, 0.1);
+  color: var(--primary-color);
   border-radius: 50%;
   font-size: 24px;
 }
