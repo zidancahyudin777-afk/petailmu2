@@ -373,7 +373,6 @@ $program_footer_links = [
         </div>
         <div class="footer-bottom">
         <p>&copy; <?php echo $current_year; ?> Bimbingan Belajar <?php echo $company_name; ?>. Hak Cipta Dilindungi.</p>
-        <p><a href="admin_login.php" style="color: #667eea;">Admin Login</a></p>
         </div>
       </div>
     </footer>
